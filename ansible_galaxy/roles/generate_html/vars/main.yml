@@ -1,0 +1,3 @@
+---
+# vars file for generate_html
+inventory_dir: "/var/www/html/inventory"

@@ -1,0 +1,11 @@
+---
+# tasks file for apache-inventaire
+- name: "Apache configuration"
+  template:
+    src: "inventory.conf.j2"
+    dest: "/etc/httpd/conf.d/inventory.conf"
+    owner: "apache"
+    group: "apache"
+  notify: ["Restart apache service"]
+  register: apache_conf
+- debug: var=apache_conf

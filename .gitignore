@@ -1,0 +1,14 @@
+.vault_pass
+initialAdminPassword
+.bashrc
+.sudo_as_admin_successful
+.cache
+.Xauthority
+.viminfo
+.local
+.wget-hsts
+.bash_history
+.profile
+.bash_logout
+.ssh
+install.sh

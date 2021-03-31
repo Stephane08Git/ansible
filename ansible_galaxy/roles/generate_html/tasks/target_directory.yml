@@ -1,0 +1,6 @@
+- name: "generate inventory directory"
+  file:
+    path: "{{inventory_dir}}"
+    state: "directory"
+    mode: 0755
+  run_once: true

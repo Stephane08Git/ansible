@@ -1,0 +1,10 @@
+---
+# tasks file for generate_html
+- name: "Create target directory"
+  include_tasks: "target_directory.yml"
+
+- name: "html file generation"
+  template:
+    src: "ip.html.j2"
+    dest: "{{inventory_dir}}/{{inventory_hostname}}.html"
+

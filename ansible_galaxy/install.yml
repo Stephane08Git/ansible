@@ -1,0 +1,7 @@
+- name: "Apache Installation"
+  hosts: inventaire
+  roles:
+    - role: "httpd"
+    - role: "copy_html"
+    - role: "generate_html"
+    - role: "apache-inventaire"

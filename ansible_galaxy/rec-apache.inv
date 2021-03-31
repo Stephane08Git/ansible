@@ -1,0 +1,8 @@
+[inventaire]
+51.75.63.250 ansible_user=centos
+
+[linux]
+#146.59.204.39 ansible_user=centos
+
+[docker]
+146.59.205.31 ansible_user=ubuntu
